@@ -14,7 +14,6 @@ const Appointments = {
       const schedule = doctor.schedule
       const appointmentDate = new Date(parseInt(app.appointment))
       const month = appointmentDate.getMonth()
-      console.log('MONTH: ', month)
       const day = appointmentDate.getDay()
       const hour = appointmentDate.getHours() + '00'
       if(schedule[month] !== undefined) {
