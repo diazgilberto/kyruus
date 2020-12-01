@@ -5,6 +5,7 @@
 - [Run Service](#run-service)
 - [Manage Resources With Insomnia](#manage-resourses-with-insomnia)
 - [Running Test](#running-test)
+- [Development Reasoning](#development-reasoning)
 
 ### Run Service
 
@@ -21,3 +22,9 @@ Insomnia is an app that does the same thin that Postman. Download Insomnia [here
 
 - In a new terminal window `cd /path/to/kyruus`
 - `npm run test:watch`
+
+### Development Reasoning
+
+- Local JavaScript object for parsisting data
+- I'm not taking into consideration validations in the backend. In my world, it is a given that the frontend sending the correct data.
+- I'm using dates as keys to avoid checking date values.
