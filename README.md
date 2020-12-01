@@ -16,7 +16,7 @@
 
 ### Manage Resourses With Insomnia
 
-Insomnia is an app that does the same thin that Postman. Download Insomnia [here](https://insomnia.rest/). In this very repo, in root dir, there is a json file with a collection of endpoints. Import the file into Insomnia for managin resources.
+Insomnia is an app that does the same thing that Postman. Download Insomnia [here](https://insomnia.rest/). In this very repo, in root dir, there is a json file with a collection of endpoints. Import the file into Insomnia for managing resources.
 
 ### Running Test
 
@@ -25,6 +25,6 @@ Insomnia is an app that does the same thin that Postman. Download Insomnia [here
 
 ### Development Reasoning
 
-- Local JavaScript object for parsisting data
-- I'm not taking into consideration validations in the backend. In my world, it is a given that the frontend sending the correct data.
+- Local JavaScript object for persisting data
+- I'm not taking into consideration validations in the backend. In my world, it is a given that the front-end sending the correct data.
 - I'm using dates as keys to avoid checking date values.
