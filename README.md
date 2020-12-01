@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Run Service](#run-service)
-- [Manage Resources With Insomnia](#manage-resources-with-insomnia)
+- [Manage Resources With Insomnia](#manage-resourses-with-insomnia)
 - [Running Test](#running-test)
 
 ### Run Service
@@ -17,7 +17,7 @@
 
 Insomnia is an app that does the same thin that Postman. Download Insomnia [here](https://insomnia.rest/). In this very repo, in root dir, there is a json file with a collection of endpoints. Import the file into Insomnia for managin resources.
 
-### Runing Test
+### Running Test
 
 - In a new terminal window `cd /path/to/kyruus`
 - `npm run test:watch`
